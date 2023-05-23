@@ -1,6 +1,6 @@
 # DS 644: Introduction to Big Data (§§ 102, 104)
 
-## Project 1: Wikipedia
+## Project 2: Wikipedia
 
 **Deadline** TBA
 
