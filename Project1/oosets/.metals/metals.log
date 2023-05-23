@@ -1,0 +1,2062 @@
+2023.03.22 19:36:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Parth Panara\Desktop\oosets\.metals\lsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.03.22 19:36:15 INFO  logging to file C:\Users\Parth Panara\Desktop\oosets\.metals\metals.log
+2023.03.22 19:36:15 INFO  Started: Metals version 0.11.9 in workspace 'C:\Users\Parth Panara\Desktop\oosets' for client Visual Studio Code 1.74.3.
+2023.03.22 19:36:18 INFO  time: initialize in 2.78s
+2023.03.22 19:36:20 WARN  Build server is not auto-connectable.
+2023.03.22 19:36:33 INFO  running 'C:\Program Files\Java\jdk-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.7.1 -jar C:\Users\PARTHP~1\AppData\Local\Temp\metals17017955854985105589\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.22 19:36:43 INFO  [info] Updated file C:\Users\Parth Panara\Desktop\oosets\project\build.properties: set sbt.version to 1.7.1
+2023.03.22 19:36:43 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.18)
+2023.03.22 19:36:51 INFO  [info] loading settings for project oosets-build-build from metals.sbt ...
+2023.03.22 19:36:53 INFO  [info] loading project definition from C:\Users\Parth Panara\Desktop\oosets\project\project
+2023.03.22 19:37:04 INFO  [info] loading settings for project oosets-build from metals.sbt ...
+2023.03.22 19:37:04 INFO  [info] loading project definition from C:\Users\Parth Panara\Desktop\oosets\project
+2023.03.22 19:37:14 INFO  [success] Generated .bloop\oosets-build.json
+2023.03.22 19:37:16 INFO  [success] Total time: 11 s, completed Mar 22, 2023, 7:37:16 PM
+2023.03.22 19:37:22 INFO  [info] loading settings for project oosets from build.sbt ...
+2023.03.22 19:37:22 INFO  [info] set current project to oosets (in build file:/C:/Users/Parth%20Panara/Desktop/oosets/)
+2023.03.22 19:37:26 INFO  [success] Generated .bloop\oosets.json
+2023.03.22 19:37:26 INFO  [success] Generated .bloop\oosets-test.json
+2023.03.22 19:37:26 INFO  [success] Total time: 4 s, completed Mar 22, 2023, 7:37:26 PM
+2023.03.22 19:37:26 INFO  time: ran 'sbt bloopInstall' in 52s
+2023.03.22 19:37:26 INFO  Attempting to connect to the build server...
+2023.03.22 19:37:26 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.03.22 19:37:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\oosets\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.22 19:37:26 INFO  Attempting to connect to the build server...
+2023.03.22 19:37:26 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.03.22 19:37:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\oosets\project\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.22 19:37:26 INFO  time: Connected to build server in 0.71s
+2023.03.22 19:37:26 INFO  Connected to Build server: Bloop v1.5.4
+2023.03.22 19:37:27 INFO  time: Imported build in 0.26s
+2023.03.22 19:37:48 INFO  time: indexed workspace in 20s
+2023.03.22 20:03:56 INFO  shutting down Metals
+2023.03.22 20:03:56 INFO  Shut down connection with build server.
+2023.03.22 20:03:56 INFO  Shut down connection with build server.
+2023.03.24 20:38:19 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\rimpal\Desktop\oosets' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/rimpal/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.24 20:38:22 INFO  time: initialize in 2.73s
+2023.03.24 20:38:29 INFO  Attempting to connect to the build server...
+2023.03.24 20:38:29 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\rimpal\.bloop\bloop.json
+2023.03.24 20:38:32 ERROR Starting the bsp launcher for bloop...
+2023.03.24 20:38:32 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 16830'...
+2023.03.24 20:38:32 ERROR Waiting for the bsp connection to come up...
+2023.03.24 20:38:32 ERROR error: The command bsp --protocol tcp --port 16830 returned with an error
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Loading 2 projects from 'c:\Users\rimpal\Desktop\oosets\.bloop'...
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\rimpal\Desktop\oosets\.bloop\oosets.json'
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\rimpal\Desktop\oosets\.bloop\oosets-test.json'
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar doesn't exist!
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.8.
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m   => C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[32m[D][0m Elapsed: 214.3018 ms
+2023.03.24 20:38:32 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\rimpal\Desktop\oosets\.bloop\oosets-test.json
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\rimpal\Desktop\oosets\.bloop\oosets-test.json
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:198)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1764)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.03.24 20:38:32 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.24 20:38:32 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.03.24 20:38:32 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.03.24 20:38:32 WARN  no build target for: C:\Users\rimpal\Desktop\oosets\src\main\scala\oosets\TweetSet.scala
+2023.03.24 20:38:53 INFO  no build target found for C:\Users\rimpal\Desktop\oosets\src\main\scala\oosets\TweetSet.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.24 20:41:16 INFO  running 'C:\Program Files\Java\jdk-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\rimpal\AppData\Local\Temp\metals17381092760647409949\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.24 20:41:17 ERROR [info] [launcher] getting org.scala-sbt sbt 1.7.1  (this may take some time)...
+2023.03.24 20:42:19 ERROR [info] [launcher] getting Scala 2.12.16 (for sbt)...
+2023.03.24 20:43:25 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 11.0.18)
+2023.03.24 20:43:37 INFO  [info] loading settings for project oosets-build-build from metals.sbt ...
+2023.03.24 20:43:42 INFO  [info] loading project definition from C:\Users\rimpal\Desktop\oosets\project\project
+2023.03.24 20:44:00 INFO  [info] loading settings for project oosets-build from metals.sbt ...
+2023.03.24 20:44:00 INFO  [info] loading project definition from C:\Users\rimpal\Desktop\oosets\project
+2023.03.24 20:44:25 INFO  [success] Generated .bloop\oosets-build.json
+2023.03.24 20:44:29 INFO  [success] Total time: 28 s, completed Mar 24, 2023, 8:44:29 PM
+2023.03.24 20:44:36 INFO  [info] loading settings for project oosets from build.sbt ...
+2023.03.24 20:44:36 INFO  [info] set current project to oosets (in build file:/C:/Users/rimpal/Desktop/oosets/)
+2023.03.24 20:44:43 INFO  [warn] scala-library-2.13.8-sources.jar no longer exists at C:\Users\Parth Panara\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2023.03.24 20:44:48 INFO  [success] Generated .bloop\oosets.json
+2023.03.24 20:44:48 INFO  [success] Generated .bloop\oosets-test.json
+2023.03.24 20:44:48 INFO  [success] Total time: 11 s, completed Mar 24, 2023, 8:44:48 PM
+2023.03.24 20:44:48 INFO  time: ran 'sbt bloopInstall' in 3m32s
+2023.03.24 20:44:48 INFO  Attempting to connect to the build server...
+2023.03.24 20:44:48 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\rimpal\.bloop\bloop.json
+2023.03.24 20:45:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\bsp.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.24 20:45:11 INFO  Attempting to connect to the build server...
+2023.03.24 20:45:11 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\rimpal\.bloop\bloop.json
+2023.03.24 20:45:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\project\.metals\bsp.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.03.24 20:45:17 INFO  time: Connected to build server in 28s
+2023.03.24 20:45:17 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.24 20:45:20 INFO  time: Imported build in 3.12s
+2023.03.24 20:46:05 INFO  time: indexed workspace in 45s
+2023.03.24 20:46:13 INFO  compiling oosets (4 scala sources)
+2023.03.24 20:46:51 INFO  time: compiled oosets in 37s
+2023.03.24 20:46:51 INFO  compiling oosets-test (1 scala source)
+2023.03.24 20:46:57 INFO  time: compiled oosets-test in 6.78s
+2023.03.24 20:57:45 INFO  time: code lens generation in 1.76s
+Mar 24, 2023 8:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Mar 24, 2023 8:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Mar 24, 2023 8:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Mar 24, 2023 8:57:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Mar 24, 2023 8:57:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2023.03.24 20:58:30 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 47s
+2023.03.24 20:58:31 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 0.9s
+2023.03.24 21:13:21 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 1.18s
+[31merror[39m: src\main\scala\oosets\practice.worksheet.sc:17:1: unclosed comment
+/**
+^
+2023.03.24 21:18:56 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 1.45s
+Mar 24, 2023 9:19:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 21:19:43 INFO  compiling oosets (1 scala source)
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:19:45 INFO  time: compiled oosets in 1.61s
+Mar 24, 2023 9:19:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.03.24 21:19:45 INFO  compiling oosets (1 scala source)
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:19:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:19:45 INFO  time: compiled oosets in 0.6s
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:19:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:17:1: stale bloop error: unclosed comment
+/**
+^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:02 INFO  compiling oosets (1 scala source)
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:20:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:20:02 INFO  time: compiled oosets in 0.41s
+Mar 24, 2023 9:20:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.03.24 21:20:02 INFO  compiling oosets (1 scala source)
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:20:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:20:03 INFO  time: compiled oosets in 0.53s
+2023.03.24 21:20:11 INFO  compiling oosets (1 scala source)
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:20:11 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:20:11 INFO  time: compiled oosets in 0.28s
+Mar 24, 2023 9:20:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:20:58 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:06 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:07 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:08 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:21:09 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:34:48 INFO  compiling oosets (1 scala source)
+Mar 24, 2023 9:34:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 21:34:49 INFO  time: code lens generation in 1.43s
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:34:48 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:34:48 INFO  time: compiled oosets in 0.46s
+[31merror[39m: src\main\scala\oosets\practice.worksheet.sc:17:1: unclosed comment
+/**
+^
+Mar 24, 2023 9:34:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 21:34:49 INFO  time: code lens generation in 1.4s
+Mar 24, 2023 9:34:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 21:34:51 INFO  time: code lens generation in 1.36s
+2023.03.24 21:34:51 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 2.08s
+Mar 24, 2023 9:35:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+Mar 24, 2023 9:36:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 319
+Mar 24, 2023 9:36:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:37:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:37:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:37:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 347
+Mar 24, 2023 9:38:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 9:38:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Frimpal%2FDesktop%2Foosets%2Fsrc%2Fmain%2Fscala%2Foosets%2Fpractice.worksheet.sc:17: error: unclosed comment
+/**
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipDocComment(LegacyScanner.scala:57)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipComment(LegacyScanner.scala:80)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:345)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 21:39:02 INFO  compiling oosets (1 scala source)
+2023.03.24 21:39:02 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:39:03 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:39:03 INFO  time: compiled oosets in 1.06s
+Mar 24, 2023 9:39:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 394
+Mar 24, 2023 9:39:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 408
+[31merror[39m: practice.worksheet.sc:9 (mdoc generated code) illegal start of simple expression
+val res0 = package objsets
+           ^
+
+2023.03.24 21:39:18 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 14s
+2023.03.24 21:39:24 INFO  time: code lens generation in 12s
+2023.03.24 21:39:24 INFO  time: code lens generation in 20s
+2023.03.24 21:39:24 INFO  time: code lens generation in 16s
+2023.03.24 21:39:24 INFO  time: code lens generation in 14s
+2023.03.24 21:39:24 INFO  time: code lens generation in 10s
+2023.03.24 21:39:24 INFO  time: code lens generation in 14s
+2023.03.24 21:39:24 INFO  time: code lens generation in 17s
+2023.03.24 21:40:25 INFO  compiling oosets (1 scala source)
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:25 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:40:25 INFO  time: compiled oosets in 0.46s
+2023.03.24 21:40:28 INFO  compiling oosets (1 scala source)
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:28 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:40:28 INFO  time: compiled oosets in 0.86s
+2023.03.24 21:40:34 INFO  compiling oosets (1 scala source)
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:36 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:40:36 INFO  time: compiled oosets in 2.06s
+[31merror[39m: src\main\scala\oosets\practice.worksheet.sc:3:1: illegal start of simple expression
+package objsets
+^^^^^^^
+2023.03.24 21:40:37 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 0.95s
+2023.03.24 21:40:43 INFO  compiling oosets (1 scala source)
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:43 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:40:43 INFO  time: compiled oosets in 0.98s
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:25:66: stale bloop error: illegal character '\u2026'
+ * need to be able to say which of two tweets is larger, or if th…
+                                                                 ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:1:1: stale bloop error: expected class or object definition
+val l=3
+^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:5:1: stale bloop error: '{' expected.
+import common._
+^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:18:2: stale bloop error: expected class or object definition
+ * This represents a set of objects of type `Tweet` in the form of a binary search
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:19:2: stale bloop error: expected class or object definition
+ * tree. Every branch in the tree has two children (two `TweetSet`s). There is an
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:20:2: stale bloop error: expected class or object definition
+ * invariant which always holds: for every branch `b`, all elements in the left
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:21:2: stale bloop error: expected class or object definition
+ * subtree are smaller than the tweet at `b`. The elements in the right subtree are
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:22:2: stale bloop error: expected class or object definition
+ * larger.
+ ^
+2023.03.24 21:40:45 INFO  file:///C:/Users/rimpal/Desktop/oosets/src/main/scala/oosets/TweetSet.scala:24:2: stale bloop error: expected class or object definition
+ * Note that the above structure requires us to be able to compare two tweets (we
+ ^
+2023.03.24 21:41:00 INFO  compiling oosets (1 scala source)
+2023.03.24 21:42:28 INFO  compiling oosets-test (1 scala source)
+2023.03.24 21:42:55 INFO  time: compiled oosets in 1m55s
+2023.03.24 21:43:01 INFO  time: compiled oosets-test in 33s
+2023.03.24 21:44:17 INFO  Configured debugger context in 1 minute
+2023.03.24 21:44:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 21:44:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 21:44:20 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 21:44:27 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 21:44:27 INFO  Closing debug server tcp://0.0.0.0:62572
+2023.03.24 21:44:27 ERROR Unexpected error during remote test execution: 'Interrupted function call: accept failed'.
+2023.03.24 21:44:57 INFO  Configured debugger context in 6 seconds
+2023.03.24 21:44:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 21:44:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 21:44:57 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 21:44:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62602 .
+2023.03.24 21:44:59 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 21:45:03 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 21:45:03 INFO  Closing debug server tcp://0.0.0.0:62595
+2023.03.24 22:04:34 INFO  compiling oosets (1 scala source)
+2023.03.24 22:04:34 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 19m 24.738s)
+2023.03.24 22:04:34 INFO  compiling oosets (1 scala source)
+2023.03.24 22:04:36 INFO  time: compiled oosets in 0.74s
+2023.03.24 22:04:36 INFO  compiling oosets (1 scala source)
+2023.03.24 22:04:37 INFO  time: compiled oosets in 0.71s
+2023.03.24 22:04:37 INFO  {
+  "jsonrpc": "2.0",
+  "id": "121",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+Mar 24, 2023 10:04:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.03.24 22:04:37 ERROR failed: Starting debug server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.03.24 22:04:44 INFO  compiling oosets (1 scala source)
+2023.03.24 22:04:44 INFO  time: compiled oosets in 0.45s
+Mar 24, 2023 10:04:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.24 22:10:21 INFO  compiling oosets (1 scala source)
+2023.03.24 22:10:50 INFO  time: compiled oosets in 29s
+2023.03.24 22:11:45 INFO  Configured debugger context in 54 seconds
+2023.03.24 22:11:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 22:11:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 22:11:46 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:11:49 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62885 .
+2023.03.24 22:11:49 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 22:11:52 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:11:52 INFO  Closing debug server tcp://0.0.0.0:62875
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023.03.24 22:14:07 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 28m 57.669s)
+2023.03.24 22:14:07 INFO  compiling oosets (1 scala source)
+2023.03.24 22:14:07 INFO  compiling oosets (1 scala source)
+2023.03.24 22:14:13 INFO  time: compiled oosets in 5.03s
+2023.03.24 22:14:20 INFO  Configured debugger context in 7 seconds
+2023.03.24 22:14:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 22:14:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 22:14:20 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:14:24 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62920 .
+2023.03.24 22:14:24 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 22:14:26 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:14:26 INFO  Closing debug server tcp://0.0.0.0:62912
+Mar 24, 2023 10:17:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1694
+2023.03.24 22:18:18 INFO  compiling oosets (1 scala source)
+2023.03.24 22:18:18 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 33m 8.784s)
+2023.03.24 22:18:18 INFO  compiling oosets (1 scala source)
+2023.03.24 22:18:25 INFO  time: compiled oosets in 6.29s
+2023.03.24 22:18:32 INFO  Configured debugger context in 6 seconds
+2023.03.24 22:18:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 22:18:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 22:18:32 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:18:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62962 .
+2023.03.24 22:18:35 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 22:18:37 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:18:37 INFO  Closing debug server tcp://0.0.0.0:62955
+2023.03.24 22:24:03 INFO  compiling oosets (1 scala source)
+2023.03.24 22:24:03 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 38m 53.239s)
+2023.03.24 22:24:03 INFO  compiling oosets (1 scala source)
+2023.03.24 22:24:04 INFO  time: compiled oosets in 1.09s
+2023.03.24 22:24:04 INFO  {
+  "jsonrpc": "2.0",
+  "id": "172",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+Mar 24, 2023 10:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.03.24 22:24:04 ERROR failed: Starting debug server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.03.24 22:27:30 INFO  compiling oosets (1 scala source)
+2023.03.24 22:27:37 INFO  time: compiled oosets in 6.72s
+2023.03.24 22:27:37 INFO  compiling oosets (1 scala source)
+2023.03.24 22:27:39 INFO  time: compiled oosets in 1.67s
+Mar 24, 2023 10:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.03.24 22:28:24 WARN  Using indexes to guess the definition of isEmpty
+2023.03.24 22:29:36 INFO  compiling oosets (1 scala source)
+2023.03.24 22:29:37 INFO  time: compiled oosets in 1.54s
+Mar 24, 2023 10:29:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.03.24 22:29:37 INFO  compiling oosets (1 scala source)
+2023.03.24 22:29:40 INFO  time: compiled oosets in 2.28s
+2023.03.24 22:30:39 INFO  compiling oosets (1 scala source)
+2023.03.24 22:30:47 INFO  time: compiled oosets in 8.75s
+2023.03.24 22:30:47 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 45m 37.808s)
+2023.03.24 22:31:04 INFO  Configured debugger context in 16 seconds
+2023.03.24 22:31:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 22:31:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 22:31:05 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:31:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63062 .
+2023.03.24 22:31:06 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 22:31:08 INFO  Closing debug server tcp://0.0.0.0:63056
+2023.03.24 22:31:08 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:33:15 INFO  compiling oosets (1 scala source)
+2023.03.24 22:33:22 INFO  time: compiled oosets in 6.61s
+[31merror[39m: practice.worksheet.sc:9 (mdoc generated code) illegal start of simple expression
+val res0 = package objsets
+           ^
+
+2023.03.24 22:39:32 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 1.98s
+2023.03.24 22:40:51 INFO  compiling oosets (1 scala source)
+2023.03.24 22:40:51 INFO  Deduplicating compilation of oosets from bsp client 'Metals 0.11.11' (since 1h 55m 41.748s)
+2023.03.24 22:40:51 INFO  compiling oosets (1 scala source)
+2023.03.24 22:41:10 INFO  time: compiled oosets in 18s
+2023.03.24 22:41:32 INFO  Configured debugger context in 22 seconds
+2023.03.24 22:41:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-server.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.03.24 22:41:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\rimpal\Desktop\oosets\.metals\dap-client.trace.json or C:\Users\rimpal\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.03.24 22:41:33 INFO  Starting debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:41:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63264 .
+2023.03.24 22:41:34 INFO  Attaching to debuggee VM succeeded.
+2023.03.24 22:41:37 INFO  Canceling debug proxy for [objsets.TweetSetSuite()]
+2023.03.24 22:41:37 INFO  Closing debug server tcp://0.0.0.0:63253
+[31merror[39m: practice.worksheet.sc:9 (mdoc generated code) illegal start of simple expression
+val res0 = package objsets
+           ^
+
+2023.03.24 22:43:28 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 0.62s
+[31merror[39m: practice.worksheet.sc:9 (mdoc generated code) illegal start of simple expression
+val res0 = package objsets
+           ^
+
+2023.03.24 22:44:22 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 0.67s
+[31merror[39m: practice.worksheet.sc:9 (mdoc generated code) illegal start of simple expression
+val res0 = package objsets
+           ^
+
+2023.03.24 22:53:17 INFO  time: evaluated worksheet 'practice.worksheet.sc' in 0.45s
+2023.03.25 02:52:59 INFO  Shutting down server
+2023.03.25 02:52:59 INFO  shutting down Metals
+2023.03.25 02:53:00 INFO  Shut down connection with build server.
+2023.03.25 02:53:00 INFO  Shut down connection with build server.

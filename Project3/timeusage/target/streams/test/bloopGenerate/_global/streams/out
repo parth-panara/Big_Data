@@ -1,0 +1,4 @@
+[debug] [timeusage-test] Classpath dependencies List()
+[debug] [timeusage-test] Dependencies from configurations List(timeusage)
+[debug] Bloop wrote the configuration of project 'timeusage-test' to 'C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project3\timeusage\.bloop\timeusage-test.json'
+[success] Generated .bloop\timeusage-test.json

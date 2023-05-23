@@ -1,0 +1,573 @@
+2023.04.23 01:02:47 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\metals (H2 2.1)
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Apr 23, 2023 1:02:47 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.066s)
+2023.04.23 01:02:47 INFO  time: initialize in 0.77s
+2023.04.23 01:02:50 WARN  Build server is not auto-connectable.
+2023.04.23 01:02:54 INFO  running 'C:\Program Files\Java\jdk-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.8.2 -jar C:\Users\PARTHP~1\AppData\Local\Temp\metals9578203083879821091\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.04.23 01:02:57 INFO  [info] Updated file C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\project\build.properties: set sbt.version to 1.8.2
+2023.04.23 01:02:57 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11.0.18)
+2023.04.23 01:03:01 INFO  [info] loading settings for project wikipedia-build-build from metals.sbt ...
+2023.04.23 01:03:02 INFO  [info] loading project definition from C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\project\project
+2023.04.23 01:03:08 INFO  [info] loading settings for project wikipedia-build from metals.sbt ...
+2023.04.23 01:03:08 INFO  [info] loading project definition from C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\project
+2023.04.23 01:03:14 INFO  [success] Generated .bloop\wikipedia-build.json
+2023.04.23 01:03:14 INFO  [success] Total time: 6 s, completed Apr 23, 2023, 1:03:15 AM
+2023.04.23 01:03:18 INFO  [info] loading settings for project wikipedia from build.sbt ...
+2023.04.23 01:03:18 INFO  [info] set current project to wikipedia (in build file:/C:/Users/Parth%20Panara/Desktop/NJIT%20Learning%20materials/DS%20644%20Introduction%20to%20Big%20Data/Projects/Project_2/wikipedia/)
+2023.04.23 01:03:27 INFO  [success] Generated .bloop\wikipedia.json
+2023.04.23 01:03:27 INFO  [success] Generated .bloop\wikipedia-test.json
+2023.04.23 01:03:27 INFO  [success] Total time: 8 s, completed Apr 23, 2023, 1:03:27 AM
+2023.04.23 01:03:27 INFO  time: ran 'sbt bloopInstall' in 33s
+2023.04.23 01:03:27 INFO  Attempting to connect to the build server...
+2023.04.23 01:03:27 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.23 01:03:59 ERROR Starting the bsp launcher for bloop...
+2023.04.23 01:03:59 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 13187'...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR Waiting for the bsp connection to come up...
+2023.04.23 01:03:59 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2023.04.23 01:03:59 ERROR > 
+2023.04.23 01:03:59 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.04.23 01:03:59 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.04.23 01:07:32 INFO  Shutting down server
+2023.04.23 01:07:32 INFO  shutting down Metals
+2023.04.23 01:07:32 INFO  Exiting server
+2023.04.23 01:09:05 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 1:09:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 1:09:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 1:09:05 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 1:09:06 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\metals (H2 2.1)
+Apr 23, 2023 1:09:06 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Apr 23, 2023 1:09:06 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 1:09:06 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 01:09:06 INFO  time: initialize in 0.9s
+2023.04.23 01:09:08 INFO  Attempting to connect to the build server...
+2023.04.23 01:09:08 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.23 01:09:08 INFO  skipping build import with status 'Installed'
+2023.04.23 01:09:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 01:09:08 INFO  Attempting to connect to the build server...
+2023.04.23 01:09:08 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.23 01:09:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\project\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 01:09:08 INFO  time: Connected to build server in 0.4s
+2023.04.23 01:09:08 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 01:09:09 INFO  time: Imported build in 0.22s
+2023.04.23 01:09:21 INFO  time: indexed workspace in 11s
+2023.04.23 01:10:11 ERROR text document: file:///C:/Users/Parth%20Panara/Desktop/NJIT%20Learning%20materials/DS%20644%20Introduction%20to%20Big%20Data/Projects/Project_2/wikipedia/src/test/scala/WikipediaSuite.scala
+java.nio.file.FileSystemException: C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.bloop\wikipedia\bloop-bsp-clients-classes\test-classes-Metals-aP7-L5A6TcOyOnhc1MlN8Q==\META-INF\semanticdb\src\test\scala\WikipediaSuite.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.nio.file.Files.newInputStream(Files.java:156)
+	at scala.meta.internal.mtags.Semanticdbs$.loadTextDocuments(Semanticdbs.scala:22)
+	at scala.meta.internal.mtags.Semanticdbs$.loadResolvedTextDocument(Semanticdbs.scala:66)
+	at scala.meta.internal.mtags.Semanticdbs$.loadTextDocument(Semanticdbs.scala:51)
+	at scala.meta.internal.metals.FileSystemSemanticdbs.textDocument(FileSystemSemanticdbs.scala:55)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.04.23 01:12:21 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 3m 13.062s)
+2023.04.23 01:12:21 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:12:21 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:12:23 INFO  time: compiled wikipedia in 1.26s
+2023.04.23 01:12:23 INFO  {
+  "jsonrpc": "2.0",
+  "id": "30",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+2023.04.23 01:12:23 ERROR failed: Starting debug server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+Apr 23, 2023 1:12:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:391)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:391)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:366)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+Apr 23, 2023 1:15:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2023.04.23 01:25:38 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:25:38 INFO  time: compiled wikipedia in 0.68s
+2023.04.23 01:25:39 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:25:39 INFO  time: compiled wikipedia in 0.79s
+Apr 23, 2023 1:25:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:916)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:387)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveTestSelectionParams$3(DebugProvider.scala:663)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.04.23 01:25:40 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:25:40 INFO  time: compiled wikipedia in 0.47s
+2023.04.23 01:26:58 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:26:58 INFO  time: compiled wikipedia in 0.69s
+2023.04.23 01:26:59 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:27:01 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.04.23 01:27:01 INFO  time: compiled wikipedia in 1.91s
+2023.04.23 01:27:01 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 17m 53.102s)
+2023.04.23 01:27:08 INFO  Configured debugger context in 5 seconds
+2023.04.23 01:27:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:27:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:27:08 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:27:08 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61392 .
+2023.04.23 01:27:08 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:27:11 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:27:14 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:27:14 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:27:14 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:27:14 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:27:14 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:27:20 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:27:20 INFO  Closing debug server tcp://0.0.0.0:61386
+2023.04.23 01:35:01 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 25m 52.443s)
+2023.04.23 01:35:01 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:35:01 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:35:03 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.04.23 01:35:03 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2023.04.23 01:35:03 INFO  time: compiled wikipedia in 2.33s
+2023.04.23 01:35:09 INFO  Configured debugger context in 5 seconds
+2023.04.23 01:35:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:35:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:35:09 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:35:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61564 .
+2023.04.23 01:35:09 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:35:14 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:35:17 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:35:17 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:35:17 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:35:17 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:35:17 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:35:23 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:35:23 INFO  Closing debug server tcp://0.0.0.0:61556
+2023.04.23 01:42:26 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:42:26 INFO  time: compiled wikipedia in 0.61s
+2023.04.23 01:42:30 INFO  Configured debugger context in 5 seconds
+2023.04.23 01:42:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:42:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:42:31 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:42:30 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61658 .
+2023.04.23 01:42:30 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:42:33 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:42:37 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:42:37 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:42:37 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:42:37 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:42:37 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:42:42 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:42:42 INFO  Closing debug server tcp://0.0.0.0:61649
+2023.04.23 01:47:00 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:47:00 INFO  time: compiled wikipedia in 0.5s
+2023.04.23 01:47:01 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:47:03 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.04.23 01:47:03 INFO  time: compiled wikipedia in 1.81s
+2023.04.23 01:47:03 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 37m 55.539s)
+2023.04.23 01:47:09 INFO  Configured debugger context in 4 seconds
+2023.04.23 01:47:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:47:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:47:09 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:47:09 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61731 .
+2023.04.23 01:47:09 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:47:12 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:47:15 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:47:15 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:47:15 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:47:15 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:47:15 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:47:19 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:47:19 INFO  Closing debug server tcp://0.0.0.0:61725
+2023.04.23 01:51:03 INFO  compiling wikipedia (1 scala source)
+2023.04.23 01:51:04 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.04.23 01:51:04 INFO  time: compiled wikipedia in 1.88s
+2023.04.23 01:51:04 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 41m 56.469s)
+2023.04.23 01:51:10 INFO  Configured debugger context in 4 seconds
+2023.04.23 01:51:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:51:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:51:10 INFO  Starting debug proxy for [wikipedia.WikipediaSuite('rankLangsReduceByKey' should work for a simple RDD with four elements)]
+2023.04.23 01:51:10 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61810 .
+2023.04.23 01:51:10 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:51:12 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:51:15 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:51:15 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:51:15 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:51:15 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:51:15 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:51:20 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite('rankLangsReduceByKey' should work for a simple RDD with four elements)]
+2023.04.23 01:51:20 INFO  Closing debug server tcp://0.0.0.0:61804
+2023.04.23 01:53:24 INFO  Configured debugger context in 6 seconds
+2023.04.23 01:53:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 01:53:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 01:53:24 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 01:53:24 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:61867 .
+2023.04.23 01:53:24 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 01:53:27 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 01:53:30 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 01:53:30 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 01:53:30 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 01:53:30 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 01:53:30 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 01:53:34 INFO  Closing debug server tcp://0.0.0.0:61857
+2023.04.23 01:53:34 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 02:02:45 INFO  Shutting down server
+2023.04.23 02:02:45 INFO  shutting down Metals
+2023.04.23 02:02:45 INFO  Shut down connection with build server.
+2023.04.23 02:02:45 INFO  Shut down connection with build server.
+2023.04.23 02:02:45 INFO  Exiting server
+2023.04.23 16:22:46 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia' for client Visual Studio Code 1.77.3.
+Apr 23, 2023 4:22:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 23, 2023 4:22:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 23, 2023 4:22:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 23, 2023 4:22:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\metals (H2 2.1)
+Apr 23, 2023 4:22:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.151s)
+Apr 23, 2023 4:22:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 23, 2023 4:22:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.23 16:22:51 INFO  time: initialize in 5.36s
+2023.04.23 16:22:59 INFO  Attempting to connect to the build server...
+2023.04.23 16:22:59 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.23 16:22:59 INFO  skipping build import with status 'Installed'
+2023.04.23 16:23:31 INFO  no build target found for C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\src\main\scala\WikipediaRanking.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.23 16:23:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 16:23:39 INFO  Attempting to connect to the build server...
+2023.04.23 16:23:39 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.23 16:23:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\project\.metals\bsp.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.04.23 16:23:39 INFO  time: Connected to build server in 40s
+2023.04.23 16:23:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.04.23 16:23:44 INFO  time: Imported build in 4.32s
+2023.04.23 16:23:49 INFO  time: code lens generation in 50s
+2023.04.23 16:23:52 INFO  no build target found for C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\src\test\scala\WikipediaSuite.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.23 16:23:55 INFO  time: code lens generation in 11s
+2023.04.23 16:24:17 INFO  time: code lens generation in 42s
+Apr 23, 2023 4:24:17 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.04.23 16:24:22 INFO  time: code lens generation in 1m23s
+2023.04.23 16:24:22 INFO  time: code lens generation in 47s
+2023.04.23 16:24:26 INFO  time: indexed workspace in 41s
+2023.04.23 16:25:21 INFO  Deduplicating compilation of wikipedia from bsp client 'Metals 0.11.12' (since 1m 42.568s)
+2023.04.23 16:25:27 INFO  compiling wikipedia (2 scala sources)
+2023.04.23 16:25:27 INFO  compiling wikipedia (2 scala sources)
+2023.04.23 16:26:03 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.04.23 16:26:03 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2023.04.23 16:26:06 INFO  time: compiled wikipedia in 38s
+2023.04.23 16:26:06 INFO  Deduplicating compilation of wikipedia-test from bsp client 'Metals 0.11.12' (since 2m 27.646s)
+2023.04.23 16:26:06 INFO  compiling wikipedia-test (1 scala source)
+2023.04.23 16:26:06 INFO  compiling wikipedia-test (1 scala source)
+2023.04.23 16:26:13 INFO  time: compiled wikipedia-test in 6.2s
+2023.04.23 16:28:05 INFO  Configured debugger context in 12 seconds
+2023.04.23 16:28:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-server.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2023.04.23 16:28:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\dap-client.trace.json or C:\Users\Parth Panara\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2023.04.23 16:28:05 INFO  Starting debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 16:28:07 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:50196 .
+2023.04.23 16:28:07 INFO  Attaching to debuggee VM succeeded.
+2023.04.23 16:28:16 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2023.04.23 16:28:19 ERROR WARNING: An illegal reflective access operation has occurred
+2023.04.23 16:28:19 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/C:/Users/Parth%20Panara/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2023.04.23 16:28:19 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2023.04.23 16:28:19 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2023.04.23 16:28:19 ERROR WARNING: All illegal access operations will be denied in a future release
+2023.04.23 16:28:25 INFO  Closing debug server tcp://0.0.0.0:50188
+2023.04.23 16:28:25 INFO  Canceling debug proxy for [wikipedia.WikipediaSuite()]
+2023.04.23 16:34:04 INFO  time: code lens generation in 1.9s
+2023.04.23 16:59:31 INFO  Shutting down server
+2023.04.23 16:59:31 INFO  shutting down Metals
+2023.04.23 16:59:31 INFO  Shut down connection with build server.
+2023.04.23 16:59:31 INFO  Shut down connection with build server.
+2023.04.23 16:59:31 INFO  Exiting server
+2023.04.26 20:20:11 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia' for client Visual Studio Code 1.77.3.
+Apr 26, 2023 8:20:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Apr 26, 2023 8:20:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Apr 26, 2023 8:20:11 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Apr 26, 2023 8:20:12 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\.metals\metals (H2 2.1)
+Apr 26, 2023 8:20:12 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.066s)
+Apr 26, 2023 8:20:12 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Apr 26, 2023 8:20:12 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.04.26 20:20:14 INFO  time: initialize in 3.3s
+2023.04.26 20:20:17 INFO  Attempting to connect to the build server...
+2023.04.26 20:20:17 INFO  Bloop uses C:\Program Files\Java\jdk-11 defined at C:\Users\Parth Panara\.bloop\bloop.json
+2023.04.26 20:20:17 INFO  skipping build import with status 'Installed'
+2023.04.26 20:20:47 INFO  no build target found for C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\src\main\scala\WikipediaRanking.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.26 20:20:50 ERROR Starting the bsp launcher for bloop...
+2023.04.26 20:20:50 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 16998'...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR Waiting for the bsp connection to come up...
+2023.04.26 20:20:50 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2023.04.26 20:20:50 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2023.04.26 20:20:50 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.6...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Starting bloop server at 127.0.0.1:8212...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR > Attempting a connection to the server...
+2023.04.26 20:20:50 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.04.26 20:20:50 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.04.26 20:20:50 WARN  no build target for: C:\Users\Parth Panara\Desktop\NJIT Learning materials\DS 644 Introduction to Big Data\Projects\Project_2\wikipedia\src\main\scala\WikipediaRanking.scala
+2023.04.26 20:21:00 INFO  time: code lens generation in 42s
+2023.04.26 20:25:52 INFO  Shutting down server
+2023.04.26 20:25:52 INFO  shutting down Metals
+2023.04.26 20:25:54 INFO  Exiting server
